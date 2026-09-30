@@ -58,26 +58,9 @@ desktop.ini
 *.xlsx
 *.xls
 
-# Large Datasets & Archives (Exceeds GitHub 100MB file limit)
-*.csv
-*.tsv
+# Archives & duplicate folder
 *.zip
 *.tar.gz
 *.rar
 *.7z
-MovieLensDataset/
-merged_movies_ratings.csv
-merged_movies_ratings.zip
-
-# Large Model Checkpoints & Serialized Weights
-# (svd_model_7866.pkl is ~588MB, exceeding GitHub's 100MB limit)
-*.pkl
-*.pth
-*.pt
-*.h5
-*.bin
-*.joblib
-*.onnx
-
-# Duplicate nested subfolder
 Movie Recomendation/
