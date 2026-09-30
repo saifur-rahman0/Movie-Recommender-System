@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documents and Reports (excluded as requested)
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+
+# Large Datasets & Archives (Exceeds GitHub 100MB file limit)
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+MovieLensDataset/
+merged_movies_ratings.csv
+merged_movies_ratings.zip
+
+# Large Model Checkpoints & Serialized Weights
+# (svd_model_7866.pkl is ~588MB, exceeding GitHub's 100MB limit)
+*.pkl
+*.pth
+*.pt
+*.h5
+*.bin
+*.joblib
+*.onnx
+
+# Duplicate nested subfolder
+Movie Recomendation/

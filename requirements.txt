@@ -1,0 +1,8 @@
+torch
+pandas
+scikit-learn
+gradio
+joblib
+scikit-surprise
+numpy
+scipy
